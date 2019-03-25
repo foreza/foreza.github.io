@@ -1,0 +1,54 @@
+img#bg-banner-img{
+    border: solid black;
+    width: 100%;
+    height:auto;
+}
+
+
+div#bg-banner-profile{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+img#profile-pic{
+    width: 20vw;
+    margin: auto;
+    display: block;
+}
+
+div.spacer{
+    height: 8vw;
+}
+
+div#top-rows div.card-image{
+    max-height: 300px;
+}
+
+div#top-rows div.card-image img{
+    max-height: 300px;
+    width: auto;
+}
+
+
+
+
+div#center-stack div.card-image{
+    height: 300px;
+}
+
+div#center-stack div.card-image img{
+max-height: 300px;
+}
+
+div#center-stack span.card-title{
+    background: gray;
+    width: 100%;    
+    opacity: 0.8;
+}
+
+
+div#bottom-submit a#contact-submit{
+    width: 100%
+}
