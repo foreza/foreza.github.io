@@ -1,5 +1,18 @@
+
+div#background-banner {
+    max-height: 50vh;
+    z-index: -1;
+    position: relative;
+}
+
+div#center-region{
+    padding-top: 2%;
+    position: relative;
+    z-index: 2;
+    background: #a3a3a3;
+}
+
 img#bg-banner-img {
-    border: solid black;
     width: 100%;
     height: auto;
 }
@@ -36,6 +49,10 @@ div#center-stack div.card-image {
 
 div#center-stack div.card-image img {
     max-height: 100%;
+    width: auto;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 
 div#center-stack span.card-title {
