@@ -1,6 +1,6 @@
 
 div#background-banner {
-    max-height: 50vh;
+    height: 30vh;
     z-index: -1;
     position: relative;
 }
@@ -12,20 +12,30 @@ div#center-region{
     background: #a3a3a3;
 }
 
-img#bg-banner-img {
+div#bg-banner-content{
+    height: 15vh;
+    position: relative;
+    position: relative;
+    display: block;
+}
+
+div#bg-banner-top {
     width: 100%;
-    height: auto;
+    height: 15vh;
+    background-color: steelblue;
+    position: relative;
+    display: block;
 }
 
 div#bg-banner-profile {
     position: absolute;
-    top: 0;
+    top: 15%;
     width: 100%;
     text-align: center;
 }
 
 img#profile-pic {
-    width: 20vw;
+    width: 120px;
     margin: auto;
     display: block;
 }
