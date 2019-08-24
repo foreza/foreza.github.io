@@ -38,6 +38,11 @@ div#bg-banner-top {
     display: block;
 }
 
+footer.page-footer{
+    background-color: steelblue;
+    text-align: center;
+}
+
 div#bg-banner-profile {
     position: absolute;
     top: 50px;
@@ -111,4 +116,18 @@ div#bottom-submit a#contact-submit {
   
   .slide-intro-from-left {  
     animation: .5s ease-out 0s 1 slideInFromLeft;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+    .hideMobile {
+        display: none;
+      }
+
+
+
   }
