@@ -1,27 +1,38 @@
 
 div#background-banner {
-    height: 30vh;
-    z-index: -1;
+    height: 200px;
+    z-index: 1;
     position: relative;
 }
 
 div#center-region{
     padding-top: 2%;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     background: #a3a3a3;
 }
 
 div#bg-banner-content{
     height: 15vh;
+    min-height: 100px;
+    padding-top: 50px;
     position: relative;
     position: relative;
     display: block;
 }
 
+#bg-banner-content > .row{
+    text-align: center;
+}
+
+#bg-banner-content .btn-small {
+    background-color:steelblue;
+}
+
+/* TODO: Add media styles for large / small */
 div#bg-banner-top {
     width: 100%;
-    height: 15vh;
+    height: 100px;     
     background-color: steelblue;
     position: relative;
     display: block;
@@ -29,13 +40,22 @@ div#bg-banner-top {
 
 div#bg-banner-profile {
     position: absolute;
-    top: 15%;
+    top: 50px;
+    height: 100px;
     width: 100%;
     text-align: center;
 }
 
+
+#bg-banner-top>p{
+    text-align: center;
+    color: azure;
+    margin: 0px;
+    padding-top: 20px
+}
+
 img#profile-pic {
-    width: 120px;
+    height: inherit;
     margin: auto;
     display: block;
 }
@@ -74,3 +94,21 @@ div#center-stack span.card-title {
 div#bottom-submit a#contact-submit {
     width: 100%
 }
+
+
+
+
+/* CSS Transitions */
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-intro-from-left {  
+    animation: .5s ease-out 0s 1 slideInFromLeft;
+  }
