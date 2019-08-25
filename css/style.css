@@ -146,6 +146,7 @@ div#bottom-submit a#contact-submit {
         position: relative;
         display: block;
         background-image: url(https://i.imgur.com/IGbZy4O.png);
+        background-position: center;
     }
 
 
