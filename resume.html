@@ -1,129 +1,127 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Jason Chiu - Resume</title>
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google" content="notranslate" />
     <meta name="robots" content="all" />
     <meta name="googlebot" content="all" />
 
-    <!-- Compiled and minified CSS -->
+    <!-- Compiled and minified Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
-    <!-- Additional Custom CSS-->
-    <link rel="stylesheet" href="resume.css">
-
+    <!-- Additional inline css -->
     <style>
+        #resume-body {
+            min-width: 1000px;
+        }
 
-#resume-body{
-    min-width: 1000px;
-}
+        #objective-toggle {
+            display: none;
+            padding: 0;
+            margin: 0;
+        }
 
-#objective-toggle{
-    display: none;
-    padding: 0;
-    margin: 0;
-}
+        #education-toggle {
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
 
-#education-toggle{
-    display: block;
-    padding: 0;
-    margin: 0;
-}
+        #education-toggle p {
+            margin: 0px 0px 5px 0px;
+        }
 
-#education-toggle p{
-    margin: 0px 0px 5px 0px;
-}
+        .row {
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
 
-.row{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-p#name-header{
-    margin: 0px;
-    font-size: 45px;
-}
+        p#name-header {
+            margin: 0px;
+            font-size: 45px;
+        }
 
 
-span#edu-header{
-    font-weight: bold;
-    font-size: 16px;
-}
+        span#edu-header {
+            font-weight: bold;
+            font-size: 16px;
+        }
 
-span#auth-header{
-    font-weight: bold;
-    font-size: 16px;
-}
+        span#auth-header {
+            font-weight: bold;
+            font-size: 16px;
+        }
 
-span#obj-header{
-    font-weight: bold;
-    font-size: 16px;
-}
+        span#obj-header {
+            font-weight: bold;
+            font-size: 16px;
+        }
 
-.contact-info{
-    text-align: left;
-    padding-top: 10px;
-}
+        .contact-info {
+            text-align: left;
+            padding-top: 10px;
+        }
 
-tr td{
-    padding: 0;
-}
+        tr td {
+            padding: 0;
+        }
 
-tr td.position-name{
-    padding-top: 5px;
-    padding-bottom: 1px;
-    font-weight: bold;
-    font-size: 20px;
-}
+        tr td.position-name {
+            padding-top: 5px;
+            padding-bottom: 1px;
+            font-weight: bold;
+            font-size: 20px;
+        }
 
-tr td.position-name .provided-link a{
-    font-size:15px;
-    color: #000000;
-    margin-left: 10px
-}
+        tr td.position-name .provided-link a {
+            font-size: 15px;
+            color: #000000;
+            margin-left: 10px
+        }
 
-tr td.position-date{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+        tr td.position-date {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
 
-td ul li{
-    list-style-type: circle;
-}
+        td ul li {
+            list-style-type: circle;
+        }
 
-th.table-header{
-    text-align: left;
-    padding: 0px;
-    font-size: 30px;
-}
+        th.table-header {
+            text-align: left;
+            padding: 0px;
+            font-size: 30px;
+        }
 
-th.table-position{
-    text-align: left;
-}
+        th.table-position {
+            text-align: left;
+        }
 
-th.table-date{
-    text-align: right;
-}
+        th.table-date {
+            text-align: right;
+        }
 
-td.position-date{
-    text-align: right;
-    font-style: italic;
-}
+        td.position-date {
+            text-align: right;
+            font-style: italic;
+        }
 
-ul.position-list{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 0px 0px 0px 20px;
-}
+        ul.position-list {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin: 0px 0px 0px 20px;
+        }
 
-.skills-row{
-    margin-top: 5px;
-}
+        .skills-row {
+            margin-top: 5px;
+        }
     </style>
 
 </head>
@@ -137,40 +135,40 @@ ul.position-list{
             <div class="col s8">
                 <div class="contact-info" class="row">
                     <div class="col s5">
-                    <span class="header-attr">
-                        <b>Email:</b>
-                    </span> jasonthechiu@gmail.com
+                        <span class="header-attr">
+                            <b>Email:</b>
+                        </span> jasonthechiu@gmail.com
                     </div>
                     <div class="col s7"><span class="header-attr">
-                      <b>Website:</b></span> jasonthechiu.com
+                            <b>Website:</b></span> jasonthechiu.com
                     </div>
                 </div>
                 <div class="contact-info" class="row">
-                   <div class="col s5"><span class="header-attr"><b>Phone:</b></span> (408) 799-8066</div>
-                   <div class="col s7"><span class="header-attr"><b>LinkedIn:</b></span> /in/jasonthechiu</div>
+                    <div class="col s5"><span class="header-attr"><b>Phone:</b></span> (408) 799-8066</div>
+                    <div class="col s7"><span class="header-attr"><b>LinkedIn:</b></span> /in/jasonthechiu</div>
                 </div>
 
-                
+
 
             </div>
         </div>
 
 
         <div id="education-toggle" class="row">
-                <span id="edu-header">Education: </span> University of California Irvine, B.S. Computer Science, Class of 2016
-   
-                <div>
-                    <span id="auth-header">Background: </span> U.S Citizen, California Resident 
-                </div>
+            <div><span id="edu-header">Education: </span> University of California Irvine, B.S. Computer Science, Class
+                of 2016</div>
+            <div><span id="auth-header">Background: </span> U.S Citizen, California Resident</div>
+            <div><b>Spoken Languages: </b>English (Native), Mandarin Chinese</div>
+
         </div>
 
 
 
- <!--Table 1 - Work experience-->
+        <!--Table 1 - Work experience-->
         <table>
             <thead>
                 <tr>
-                    <th class="table-header" data-field="header">Work Experience</th>
+                    <th class="table-header" data-field="header">Relevant Experience</th>
                 </tr>
             </thead>
 
@@ -182,11 +180,22 @@ ul.position-list{
                 <tr>
                     <td colspan="3">
                         <ul class="position-list">
-                            <li class="position-descriptor">Drive pre-sales opportunities by providing in-depth technical product overview of native Android/IOS mobile advertisement SDKs</li>
-                            <li class="position-descriptor">Accelerate customer technical integration through providing dedicated platform support through on-site visits, calls and screenshares</li>
-                            <li class="position-descriptor">Collaborate with product management and businesss account managers to resolve any integration issues with agreed upon SLA</li>
-                            <li class="position-descriptor">Develop sample applications to validate IOS/Android SDK integrations, validate public SDK and platform integration documentation</li>
-                            <li class="position-descriptor">Lead internal technical trainings on new features and products, research latest industry standards and releases to validate business needs</li>
+                            <li class="position-descriptor">Drive pre-sales opportunities by providing in-depth
+                                technical overview of the InMobi Supply ecosystem, with a focus on mobile SDKs</li>
+                            <li class="position-descriptor">Write SQL queries to pull reports from PostGres to validate
+                                metrics for customer monetization, identify and troubleshoot discrepencies</li>
+                            <li class="position-descriptor">Accelerate customer integration by providing
+                                dedicated support and serving as primary technical point of contact for all integration
+                                needs</li>
+                            <li class="position-descriptor">Leverage network/memory profiling tools such as Charles and
+                                Android Profiler to troubleshoot customer technical integrations </li>
+                            <li class="position-descriptor">Collaborate with product management and business account
+                                managers to resolve all business and integration issues through JIRA</li>
+                            <li class="position-descriptor">Develop example applications in Objective-C / Java for SDK
+                                sample integrations, provide technical content for ZenDesk documentation</li>
+                            <li class="position-descriptor">Conduct technical trainings on new product features, perform
+                                user-acceptance testing on public SDK and documentation
+                            </li>
                         </ul>
                     </td>
                 </tr>
@@ -201,10 +210,17 @@ ul.position-list{
                 <tr>
                     <td colspan="3">
                         <ul class="position-list">
-                            <li class="position-descriptor">Direct product development for an personalized in-house legal concierge service for small businesses who can't afford legal counsel</li>
-                            <li class="position-descriptor">Research product requirements and interview stakeholders to drive product direction through understanding market fit</li>
-                            <li class="position-descriptor">Define user journeys for implementation, define product technical specifications for a team of 4 web application developers </li>
-                            <li class="position-descriptor">Manage development backlog and release pipeline, coordinate technical resources to remain within scope and budget </li>
+                            <li class="position-descriptor">Direct product development for an in-house
+                                legal concierge service for small businesses, built with React Native/Node.js/PostGres
+                            </li>
+                            <li class="position-descriptor">Research product requirements and interview stakeholders to
+                                drive product direction through understanding market fit</li>
+                            <li class="position-descriptor">Define user journeys for implementation, define product
+                                technical specifications for a team of 4 web application developers </li>
+                            <li class="position-descriptor">Manage JIRA development backlog and release pipeline,
+                                coordinate technical resources to remain within scope and budget </li>
+                            <li class="position-descriptor">Manage creative/design backlog on Trello by capturing all
+                                user feedback, suggestions, and required changes as actionable items </li>
                         </ul>
                     </td>
                 </tr>
@@ -219,11 +235,20 @@ ul.position-list{
                 <tr>
                     <td colspan="3">
                         <ul class="position-list">
-                            <li class="position-descriptor">Lead multiple technical projects through certification and deployment by providing dedicated hardware/software integration support</li>
-                            <li class="position-descriptor">Collaborate with Sales to identify, qualify, and support key customer integration projects from implementation to production </li>
-                            <li class="position-descriptor">Scope, design, and drive critical features with product management/engineering to satisfy market requirements and customer needs</li>
-                            <li class="position-descriptor">Create product integration guides and technical resources that detail best implementation practices for customer development</li>
-                            <li class="position-descriptor">Assist Key Administrators in cryptographic key generation and injection, allowing customers to deploy secure encrypted solutions</li>
+                            <li class="position-descriptor">Lead technical projects through payment certification and
+                                deployment by providing dedicated hardware/software integration support</li>
+                            <li class="position-descriptor">Collaborate with Sales to identify, qualify, and support key
+                                customer integration projects from implementation to production </li>
+                            <li class="position-descriptor">Provide support on iOS, Android, and C# payment SDKs through
+                                sample code demonstration for payment application developers</li>
+                            <li class="position-descriptor">Drive critical technical features on JIRA with product
+                                management/engineering to satisfy market requirements and customer needs</li>
+                            <li class="position-descriptor">Create product integration guides and technical resources on
+                                Confluence to detail best practices for troubleshooting</li>
+                            <li class="position-descriptor">Triage high priority customer issues raised on JIRA service
+                                desk to ensure all technical issues are resolved within agreed upon SLA</li>
+                            <li class="position-descriptor">Assist Key Administrators in cryptographic key generation
+                                and injection, enabling customers to deploy secure and approved E2E solutions</li>
                         </ul>
                     </td>
                 </tr>
@@ -237,10 +262,21 @@ ul.position-list{
                 <tr>
                     <td colspan="3">
                         <ul class="position-list">
-                            <li class="position-descriptor">Utilized JIRA/Confluence to define clear user stories and drive customer features across product development lifecycle</li>
-                            <li class="position-descriptor">Supervised documentation of project requirements, customer assets, and development practices to increase engineering productivity</li>
-                            <li class="position-descriptor">Collaborated with project stakeholders to understand technical requirements, communicate project timeline, and manage scope</li>
-                            <li class="position-descriptor">Lead daily scrums with engineering teams to assess development priorities, identify difficulties, and resolve roadblocks</li>
+                            <li class="position-descriptor">Lead customer success for a web application development firm
+                                through proactive outreach and consistent stakeholder communication
+                            </li>
+                            <li class="position-descriptor">Leverage JIRA to define clear actionable user stories that
+                                accurately represent the customer's vision from an engineering standpoint
+                            </li>
+                            <li class="position-descriptor">Develop reusable toolset to streamline minimum viable
+                                product development, using Angular.js, Node/Express, and MongoDB
+                            </li>
+                            <li class="position-descriptor">Documented customer product requirements on Confluence and
+                                held regular check-ins with stakeholders to keep team vision aligned</li>
+                            <li class="position-descriptor">Wrote regular internal status update emails to keep upper
+                                management appraised of development and infrastructure costs</li>
+                            <li class="position-descriptor">Lead daily scrums with development teams to review
+                                development priorities, identify /resolve roadblocks</li>
                         </ul>
                     </td>
                 </tr>
@@ -248,251 +284,38 @@ ul.position-list{
 
         </table>
 
-        <!--Table 2: Projects-->
 
-        <table>
-
-            <thead>
-            <tr>
-                <th class="table-header" data-field="header">Relevant Projects</th>
-            </tr>
-            </thead>
-
-
-<tbody>
-                    <tr>
-                        <td colspan="2" class="position-name">IMAB Audience Bidding SDK (InMobi) - Sales Engineer</td>
-                        <td class="position-date">March 2019 - Present</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">
-                            <ul class="position-list">
-                            <li class="position-descriptor">Drive all technical integrations, collaborate with product/engineering to architect a mobile solution to drastically increase fillrate </li>
-                                <li class="position-descriptor">Create technical documentation, develop and maintain public sample apps, and hold internal technical trainings on the platform solution</li>
-                                                        
-                            </ul>
-                        </td>
-                    </tr>
-                    </tbody>
-
-
-            <tbody>
-                    <tr>
-                        <td colspan="2" class="position-name">Device Configuration Tool (ID TECH Products) - Sales Engineer</td>
-                        <td class="position-date">September 2017 - April 2018</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">
-                            <ul class="position-list">
-                                <li class="position-descriptor">Develop a web-based configuration utility to configure settings for and provide over the air updates to chip payment devices  </li>
-                                <li class="position-descriptor">Defined product requirements and stakeholders, developed web tool in HTML/CSS/JavaScript to interface with web driver</li>                        
-                            </ul>
-                        </td>
-                    </tr>
-                    </tbody>
-            <!--  <tbody>
-            <tr>
-                <td colspan="2" class="position-name">Production Key Injection (ID TECH Products) - Sales Engineer</td>
-                <td class="position-date">May 2017 - August 2017</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Troubleshoot encryption/injection issues with injection facilities/distribution, directed key transfer/loading procedures</li>
-                        <li class="position-descriptor">Validated and improved documentation for usage and commissioning hardware security modules (HSMs)</li>                        
-                    </ul>
-                </td>
-            </tr>
-            </tbody> -->
-
-            <!--  <tbody>
-            <tr>
-                <td colspan="2" class="position-name">Android Phone Profile Database (ID TECH Products) - Sales Engineer</td>
-                <td class="position-date">February 2017 - April 2018</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Engineered a cloud solution that reduces audiojack reader connectivity overhead by automating a manual troubleshooting procedure</li>
-                        <li class="position-descriptor">Developed an administrative panel that provides android phone connectivity diagnostics and aggregates profile statistics</li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody> -->
-
-            <tbody>
-            <tr>
-                <td colspan="2" class="position-name">NotaryCam (The Portal) - Project Manager</td>
-                <td class="position-date">May 2016 - January 2017</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Lead team of 4 engineers to implement solutions for video recording, conferencing, and applying e-signatures</li>
-                        <li class="position-descriptor">Expanded client's customer base through architecting and supervising development of an e-signing gateway solution</li>
-                        <li class="position-descriptor">Collaborated with client to implement technical requirements, give regular progress updates, and provide technical support</li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <tr>
-                <td colspan="2" class="position-name">WineKey (The Portal) - Project Manager</td>
-                <td class="position-date">February 2016 - September 2016</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Lead team of 5 engineers to develop an educational phone app for sommeliers, utilizing web cross platform technologies</li>
-                        <li class="position-descriptor">Coordinated with client to understand application requirements and to release application to both iTunes and Google Play</li>
-                        <li class="position-descriptor">Supervised quality assurance pipeline and application documentation through JIRA / Confluence to increase development quality</li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody>
-
-            <!--<tbody>
-            <tr>
-                <td colspan="2" class="position-name">RainbowBook</td>
-                <td class="position-date">Febuary 2016 - May 2016</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Lead team of 2 engineers and a designer to develop a multilingual reference guide for lawyers, utilizing web cross platform technologies</li>
-                        <li class="position-descriptor">Coordinated with client to understand application requirements and release application to both iTunes and Google Play</li>
-                        <li class="position-descriptor">Collaborated with client/designer to determine necessary UI/UX changes, translate into technical requirements and implement them</li>
-
-                    </ul>
-                </td>
-            </tr>
-            </tbody>
-
-
-            <tbody>
-            <tr>
-                <td colspan="2" class="position-name">GetImpactful</td>
-                <td class="position-date">May 2016 - October 2016</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Lead team of 5 engineers to develop a web application that allows celebrities to inspire change through campaigns and offering incentives</li>
-                        <li class="position-descriptor">Worked with client to understand requirements, created user stories to aid developers in implementing features given an existing API</li>
-                        <li class="position-descriptor">Collaborate with client to implement user registration/management, campaign creation, social media sharing, and calls to action </li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody>
-            <tbody>
-            <tr>
-                <td colspan="2" class="position-name">ScreeningNow
-                <span class="provided-link"><a href="#">test</a></span></td> 
-                <td class="position-date">November 2015 - January 2016</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Develop features for a client's web application that enables indie film makers to easily share, stream, and distribute video content</li>
-                        <li class="position-descriptor">Implement RESTful routes to map transactional data and product information between an e-commerce platform and the web application</li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody>-->
-
-        </table>
 
         <!--Table 3: Activities / Extra curriculars-->
 
         <table>
 
-           <!--  <thead>
-            <tr>
-                <th class="table-header" data-field="header">Extracurriculars</th>
-            </tr>
-            </thead>
-
-            <tbody>
-            <tr>
-                <td colspan="2" class="position-name">Vice President, Video Game Development Club (VGDC) @ UCI</td>
-                <td class="position-date">May 2014 - June 2016</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                    <li class="position-descriptor">Directed game projects a club of 100+ weekly participants through rapid development project prototyping/iteration
-                    <li class="position-descriptor">Lead workshops covering topics such as versioning with Git, intro web development (HTML/CSS), and Unity3D
-                    <li class="position-descriptor">Collaborated with game industry professionals and UCI faculty to hold tech seminars, almunni panels, and networking events</li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody> -->
-
-            <!-- <tbody>
-            <tr>
-                <td colspan="2" class="position-name">Webmaster, Taiwanese American Organization (TAO) @ UCI </td>
-                <td class="position-date">June 2014 - June 2015</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Developed website (taouci.com) featuring upcoming events, weekly updates, promotional content, and contact information</li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody> -->
-
-<!--             <tbody>
-            <tr>
-                <td colspan="2" class="position-name">Lead Organizer, HackUCI - UCI's first student organized Hackathon</td>
-                <td class="position-date">Feb 2014 - May 2014</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <ul class="position-list">
-                        <li class="position-descriptor">Outreach to companies in Orange County, organize sponsorship packet, manage sponsor expectations, direct event logistics.</li>
-                        <li class="position-descriptor">Manage and communicate project milestones through weekly progress summaries, lead event staff of 20 volunteers.</li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody> -->
-
-
-        </table>
-
-
-
-
-
-         <!--Table 4: Skills-->
-
-        <table>
-
             <thead>
                 <tr>
-                    <th class="table-header" data-field="header">SKILLS</th>
+                    <th class="table-header" data-field="header">Activities</th>
                 </tr>
             </thead>
 
+            <tbody>
+                <tr>
+                    <td colspan="2" class="position-name">Volunteer Instructor, Microsoft Philanthropies TEALS Program
+                    </td>
+                    <td class="position-date">June 2019 - Present</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <ul class="position-list">
+                            <li class="position-descriptor">Introduce high school students to computer science
+                                principles such as loops/conditionals through block based programming (Snap!)</li>
+                            <li class="position-descriptor">Collaborate with homeroom instructor to design lesson plan
+                                and provide daily teaching support for the Intro to CS class</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+
+
         </table>
-
-        <div class="row">
-
-            <div class="skills-row col s5">
-                <div><b>Issue Tools: </b>Proficient with JIRA/Confluence, Trello</div>
-                <div><b>Spoken Languages: </b>English (Native), Mandarin Chinese</div>
-                <div><b>Version Control: </b>Familiar with Git, SVN, Perforce</div>
-                                
-            </div>
-            <div class="skills-row col s7">
-                    <div><b>Languages: </b>Familiar with Java, Obj-C, JavaScript, HTML/CSS, C#, Python, XML</div>
-                    <div><b>FrameWorks: </b>Familiar with Angular.js, Express, Ionic, Materialize</div>
-                    <div><b>Databases:</b> Familiar with MySQL/PostGRES, MongoDB</div>
-                </div>
-    
-        </div>
-
 
 
     </div>
