@@ -1,10 +1,14 @@
 
 body {
-    background-color: #82c5ee4f;
+    background-color: #d2d2d2;
+}
+
+h4.section-title {
+    text-align: center;
 }
 
 div#background-banner {
-    height: 200px;
+    height: 150px;
     z-index: 1;
     position: relative;
 }
@@ -27,21 +31,18 @@ div#bg-banner-content{
     text-align: center;
 }
 
-#bg-banner-content .btn-small {
-    background-color:steelblue;
-}
 
 /* TODO: Add media styles for large / small */
 div#bg-banner-top {
     width: 100%;
     height: 100px;     
-    background-color: steelblue;
+    background-color: #212121;
     position: relative;
     display: block;
 }
 
 footer.page-footer{
-    background-color: steelblue;
+    background-color: #212121;
     text-align: center;
 }
 
@@ -112,6 +113,19 @@ div#bottom-submit a#contact-submit {
 
 
 
+span.header-link {
+    margin: 0px 5px;
+}
+
+span.header-description {
+    margin: 0px 5px;
+}
+
+span.header-date {
+    margin-left: auto;
+}
+
+
 /* CSS Transitions */
 
 @keyframes slideInFromLeft {
@@ -153,3 +167,6 @@ div#bottom-submit a#contact-submit {
 
 
   }
+
+
+
