@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Jason Chiu</title>
+    <title>Jason C</title>
     <meta name="description" content="The DokiDoki's website">
     <meta name="author" content="Foreza">
 
@@ -14,128 +15,89 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 
 <body>
-    <div>
+
+    <nav>
+        <div class="row">
+            <ul id="nav-tab" class="tabs">
+                <li class="tab col s3"><a class="active" href="#about">About</a></li>
+                <li class="tab col s3"><a href="#projects">Projects</a></li>
+                <li class="tab col s3 disabled"><a href="https://medium.com/@jasonchiu">Blog</a></li>
+                <li class="tab col s3"><a target="_blank" href="resume.html">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
         <div id="background-banner">
             <div id="bg-banner-top">
-                    <p class="slide-intro-from-left" id="bannerIntro"> Hi! I'm Jason.</p>
+                <p class="slide-intro-from-left" id="bannerIntro"> Hi! I'm Jason.</p>
             </div>
             <div id="bg-banner-profile">
-                <img id="profile-pic" class="circle" src="asset/profile.jpg">
+                <img alt="jason" id="profile-pic" class="circle" src="asset/profile.jpg">
             </div>
             <div id="bg-banner-content">
-                <div class="row">
-                    <div class="col m6 s6">
-                            <a class="waves-effect waves-light btn-small" href="projects.html">Projects</a>
-                    </div>
-                    <div class="col m6 s6">
-                            <a class="waves-effect waves-light btn-small" href="resume.html">Resume</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="row">
+            <div id="about" class="col s12">
+                <div class="flex-container row">
+                    <div class="col s12 m12 l4">
+                        <div class="card-panel">
+                            <h4>I'm currently ... </h4>
+                            <p><b>Senior Sales Engineer</b> @ <a href="https://www.inmobi.com/">InMobi</a></p>
+                            <p>I guide enterprise clients through iOS, Android, and C# advertisement SDK integrations.</p>
+                            <p><b>Volunteer Instructor</b> @ <a href="https://tealsk12.org">TEALS</a></p>
+                            <p>I instruct high school students on programming fundamentals using Snap! and Python.</p>
                         </div>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="card-panel">
+                            <h4>What I do: </h4>
+                            <p>I deliver the right technical solutions through understanding the business problem.</p>
+                            <p>I keep all technical/business stakeholders on the same page to reduce time to market.</p>
+                            <p>I hone my technical abilities and industry knowledge to architect efficient solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="card-panel">
+                            <h4>Connect with me! </h4>
+                            <p>I'd love to hear from you.</p>
+                            <p><i class="fab fa-linkedin"></i> LinkedIn: <a
+                                    href="https://www.linkedin.com/in/jasonthechiu/">/in/jasonthechiu/</a></p>
+                            <p><i class="fab fa-github"></i> Github: <a href="https://github.com/foreza">@foreza</a></p>
+                            <p><i class="fas fa-at"></i> Email:<a href="mailto:jasonthechiu@gmail.com">jasonthechiu'at'gmail'dot'com</a>
+                            </p>
+                            <p>I'm currently based in <b>Southern California</b>.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            <div id="projects" class="col s12">
+                Work In Progress
+            </div>
         </div>
+    </main>
 
-        <!-- <div class="spacer"></div> -->
+    <footer class="page-footer">
 
-        <div id="center-region">
-
-
-
-                <div class="row">
-                        <div class="col s12 m4">
-                                <div class="card-panel">
-                                        <h4>About Jason</h4>
-                                        <p><b>Sales Engineer</b> @ <a href="https://www.inmobi.com/">InMobi</a></p>
-                                        <p><b>Volunteer Instructor</b> @ <a href="https://tealsk12.org">TEALS</a></p>
-                                        <p>Bachelor of Computer Science, UCIrvine '16</p>
-                                </div>
-                              </div>
-                              <div class="col s12 m4">
-                                    <div class="card-panel">
-                                            <h4>Professional Goals</h4>
-                                            <p>Drive progress through identifiying and executing on clear, actionable items.</p>
-                                            <p>Synthesize information across multiple disciplines to become a domain expert.</p>
-                                    </div>
-                                  </div>
-                                  <div class="col s12 m4">
-                                        <div class="card-panel">
-                                                <h4>Free Time</h4>
-                                                <p>Jazz piano improvisation</p>
-                                                <p>Slow cooking various types of meat</p>
-                                                <p>Brewing the most potent coffee</p>
-                                                <p>Social engineering research</p>
-                                          </span>
-                                        </div>
-                                      </div>
-                      </div>
-
-                    
-                      <div class="spacer"></div>
-
-
-            <div class="row">
-
-                    <div id="contact-card" class="card horizontal">
-                        <div class="card-image hideMobile">
-                            <img src="https://i.imgur.com/mZYqXTe.png">
-                        </div>
-                        <div class="card-stacked">
-                            <div class="card-content">
-                                <h4>More / Contact:</h4>
-                                <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/jasonthechiu/">/in/jasonthechiu/</a></p>
-                                <p><i class="fab fa-github"></i> Github: <a href="https://github.com/foreza">@foreza</a></p>
-                                <p><i class="fas fa-blog"></i> Blog: <a href="https://medium.com/@jasonchiu">@jasonchiu</a></p>
-                                <p><i class="fas fa-at"></i> Email: <a href="mailto: jasonthechiu+personalsite@gmail.com">jasonthechiu'at'gmail'dot'com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spacer"></div>
-
-                </div>
-
-
-
+        <div class="footer-copyright">
+            <div class="container">
+                <span>&#169; 2020 jasonthechiu</span>
+            </div>
         </div>
-
-
-        
-
-
-
-        </div>
-    </div>
-
-
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- <script src="js/scripts.js"></script> -->
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/65119b7dac.js"></script>
-
-
+    
+        <script src="https://kit.fontawesome.com/65119b7dac.js"></script>
+        <script src="js/script.js"></script>
+    
+    </footer>
 </body>
-
-
-<footer class="page-footer">
-    <div class="container">
-            <h5 class="white-text">Navigation</h5>
-            <ul>
-                    <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
-                    <li><a class="grey-text text-lighten-3" href="projects.html">Projects</a></li>
-                    <li><a class="grey-text text-lighten-3" href="resume.html">Resume</a></li>
-            </ul>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2019 VuJoPi
-        </div>
-    </div>
-</footer>
-
-
 </html>
