@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.foreza.branch.sample",
+               "sha256_cert_fingerprints": ["FB:A3:47:45:72:4D:00:DB:B5:2C:AA:8A:11:A3:4F:78:8F:0C:F9:44:C8:B4:48:FD:1D:5D:01:C3:A3:19:8D:CC"] }
+}]
