@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notice of Consent for Messaging and Email</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 560px;
+      margin: 80px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+      padding: 48px 32px;
+    }
+    h1 {
+      color: #333;
+      font-size: 2em;
+      margin-bottom: 1.5em;
+      letter-spacing: 0.03em;
+    }
+    p {
+      color: #444;
+      font-size: 1.15em;
+      margin-bottom: 2.2em;
+      line-height: 1.7em;
+    }
+    .compliance {
+      background: #f2f6fa;
+      border-left: 4px solid #4a90e2;
+      padding: 20px 20px 20px 28px;
+      margin-bottom: 2.5em;
+      font-size: 1.05em;
+      line-height: 1.6em;
+    }
+    .optout-link {
+      display: block;
+      margin: 2.5em 0 2em 0;
+      font-size: 1.08em;
+      text-align: center;
+    }
+    .optout-link a {
+      color: #4a90e2;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .signature {
+      margin-top: 2.8em;
+      color: #222;
+      font-weight: bold;
+      font-size: 1.08em;
+      letter-spacing: 0.01em;
+    }
+    .timestamp {
+      color: #888;
+      font-size: 1.02em;
+      margin-top: 2.2em;
+      border-top: 1px solid #eee;
+      padding-top: 1.3em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Notice of Consent</h1>
+
+    <p>
+      By submitting my phone number and/or email address, I hereby give my explicit consent to receive SMS messages, phone calls, and email communications for the purpose of account verification, notifications, or other service-related communications. I understand that message and data rates may apply for SMS and phone calls, and that I may opt out at any time by following the instructions provided in the messages or emails.
+    </p>
+
+    <div class="compliance">
+      <strong>Data Privacy and Compliance Notice:</strong><br><br>
+      This site is committed to protecting your privacy and complies with the California Consumer Privacy Act (CCPA), the General Data Protection Regulation (GDPR), and supports Global Privacy Control (GPC) signals.<br><br>
+      - Under CCPA and GDPR, you have the right to access, correct, delete, or restrict the processing of your personal information at any time.<br>
+      - You may withdraw your consent or opt out of communications at any time by following the opt-out instructions provided in our messages or by contacting us directly.<br>
+      - We honor Global Privacy Control (GPC) browser signals. If you have GPC enabled, we will process your request to limit the sale or sharing of your personal data.<br>
+      - For more information about your privacy rights, please review our Privacy Policy.
+    </div>
+
+    <div class="optout-link">
+      <a href="./opt-out.html">Click here to opt out or withdraw your consent</a>
+    </div>
+
+    <div class="signature">
+      — A consenting consumer
+    </div>
+    <div class="timestamp" id="consent-date">
+      Opt-in date:
+    </div>
+  </div>
+  <script>
+    // Set today's date in the format: Month Day, Year
+    const dateElem = document.getElementById('consent-date');
+    const today = new Date();
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    dateElem.textContent = "Opt-in date: " + today.toLocaleDateString(undefined, options);
+  </script>
+</body>
+</html>
